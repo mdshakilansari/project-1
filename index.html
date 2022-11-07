@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="toggle.css">
+    <script src="https://kit.fontawesome.com/b29c840332.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="loginform.css">
+    <link rel="stylesheet" href="signup.css">
+    <link rel="stylesheet" href="select-countryandflag.css">
+</head>
+
+<body>
+    <main class="main">
+        <header class="head">
+            <nav class="nav">
+
+                <a href="#" class="getapp"> <i class="fa-solid fa-download" style="color:white;"></i></a>
+                <a href="#" style="width: 100px;" class="getapp">Get the App</a>
+                <div class="hth">
+                    <ul class="header">
+                        <li>
+                            <a href="#" class="add-invest">Investor Reletion</a>
+                        </li>
+                        <li>
+                            <a href="#" class="add-invest">Add restaurant</a>
+                        </li>
+                        <li>
+                            <button class="log">Log in</button>
+                        </li>
+                        <li>
+                            <button class="sign log" id="sign-up">Sign up</button>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="logo-div">
+            <div class=" logo-2 " id="logo-1">L!</div>
+            <div class="logo-2">Laziz</div>
+      
+        </div>
+
+        <div class="Discover-food">Discover the best food & drinks in your city</div>
+
+        <div class="search">
+            <div class="search-1">
+                <div class="ser-1"><button>
+                        <i class="fa-solid fa-location-dot" id="lctn"></i></button>
+                    <input type="text" class="inp-1" placeholder="  search your city.....">
+                </div>
+
+                <button id="tri">
+                    <i class="fa-solid fa-caret-down" id="tri"></i></button>
+            </div>
+
+            <div class="search-2">
+                <div class="ser-2">
+
+                    <i class="fa-solid fa-magnifying-glass" id="mgni"></i>
+                    <input type="text" class="inp-2" placeholder="  Search for restaurant, cuisine, or a dish....">
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <main class="sec-papa">
+        <div class="sec">
+            <div class="sec1">
+                <div class="mhf">Quick Searches</div>
+                <div class="ast">Discover restaurants by type of meal</div>
+            </div>
+            <div class="sec-child">
+                <div class="child-1">
+                    <a href="#">
+                        <img src="home-img\shutterstock_1154073754.png" class="jkl">
+                        <div class="ret-1">
+                            Breakfast
+                        </div>
+                        <div class="ret-2">Start your day with exclusive brekfast option</div>
+                    </a>
+                </div>
+                <div class="child-1">
+                    <a href="#">
+                        <img src="home-img\shutterstock_1130181932@2x.png" class="jkl">
+                        <div class="ret-1">
+                            Lunch
+                        </div>
+                        <div class="ret-2">Start your day with exclusive brekfast option</div>
+                    </a>
+                </div>
+                <div class="child-1">
+                    <a href="#">
+                        <img src="home-img\shutterstock_351721442@2x.png" class="jkl">
+                        <div class="ret-1">
+                            Snacks
+                        </div>
+                        <div class="ret-2">Start your day with exclusive brekfast option</div>
+                    </a>
+                </div>
+                <!-- </div> -->
+
+
+                <!-- <div class="sec-child"> -->
+                <div class="child-1">
+                    <a href="#">
+                        <img src="home-img\shutterstock_476864884@2x.png" class="jkl">
+                        <div class="ret-1">
+                            Dinner
+                        </div>
+                        <div class="ret-2">Start your day with exclusive brekfast option</div>
+                    </a>
+                </div>
+                <div class="child-1">
+                    <a href="#">
+                        <img src="home-img\shutterstock_305270834@2x.png" class="jkl">
+                        <div class="ret-1">
+                            Drinks
+                        </div>
+                        <div class="ret-2">Start your day with exclusive brekfast option</div>
+                    </a>
+                </div>
+                <div class="child-1">
+                    <a href="#">
+                        <img src="home-img\shutterstock_1304064250@2x.png" class="jkl">
+                        <div class="ret-1">
+                            Nightlife
+                        </div>
+                        <div class="ret-2">Start your day with exclusive brekfast option</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <main class="loginform">
+        <div class="nav-2">
+            <p class="log-popup">Login</p>
+            <button id="close-loginform"><i class="fa-sharp fa-solid fa-xmark"></i></button>
+        </div>
+
+        <div class="input-box-1">
+            <select name="contry" id="sel-con-phone">
+                <option "> country
+                    </option>
+                      <option value=" +91">INDIA
+                </option>
+                <option value="+977">NEPAL</option>
+                <option value="+85">SRILANKA</option>
+                <option value="+45">BANGLADESH</option>
+                <option value="+98">PAKISTAN</option>
+                <option value="+94">BHUTAN</option>
+                <option value="+45">AFGANISTAN</option>
+            </select>
+            <input type="text" placeholder="     enter your user id" id="input-phone">
+        </div>
+
+        <div class="input-box-1">
+
+            <input type="password" placeholder="     enter your password" id="input-password">
+        </div>
+        <button id="login-btn-1">Log In</button>
+
+        <hr>
+        <button id="login-btn-google">Continue with <img src="https://blog.hubspot.com/hubfs/image8-2.jpg"
+                height="25px"> </button>
+
+        <button id="login-btn-google">Continue with <img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/2560px-Gmail_icon_%282020%29.svg.png"
+                height="25px">
+        </button>
+        <div class="last">New to Laziz?
+            <button id="create-account">Create account</button>
+
+    </main>
+    <main class="signupform">
+        <div class="nav-3">
+            <p class="signup">Signup</p>
+            <button id="close-signupform"><i class="fa-sharp fa-solid fa-xmark"></i></button>
+        </div>
+
+        <div class="input-box-1-signup">
+
+            <input type="text" placeholder="enter your Name" id="input-name">
+        </div>
+
+        <div class="input-box-1-signup">
+
+            <input type="email" placeholder="enter your email" id="input-email">
+        </div>
+        <div class="term">
+            <input type="checkbox">
+            <span>
+                I agree to Laziz's</span>
+            <a href="#" class="term-codition-link">Terms of Service,</a>
+            <a href="#" class="term-codition-link">Privacy Policy,</a>
+            <span>and</span>
+            <a href="#" class="term-codition-link">Content Policies</a>
+
+        </div>
+
+
+        <button id="create-btn">Create</button>
+
+        <hr>
+        <button id="login-btn-google">Continue with google<img src="https://blog.hubspot.com/hubfs/image8-2.jpg"
+                height="25px"> </button>
+
+
+        <div class="last">
+            <span>Already have an account?</span>
+            <button id="log" style="color: blue;font-size: 1.4vw; margin-right: 1.7vw;">Login</button>
+        </div>
+
+    </main>
+    <main class="toggle-bar">
+        <header class="toggle-head">
+            <span class="toggle-logo">LAZIZ</span>
+            <button id="toggle-close"><i class="fa-sharp fa-solid fa-xmark" style="font-size: 1cm; "></i></button>
+        </header>
+        <hr>
+        <div class="toggle-item">
+            <button id="toggle-signin" class="toggle-btn">Login</button>
+        </div>
+        <hr>
+        <div class="toggle-item">
+            <button id="toggle-singup" class="toggle-btn">Signup</button>
+        </div>
+        <hr>
+        <div class="toggle-item">
+            <a href="#" class="toggle-link">Add Restaurant</a>
+        </div>
+        <hr>
+        <div class="toggle-item">
+            <a href="#" class="toggle-link">Investor Relations</a>
+        </div>
+        <hr>
+    </main>
+    <div>
+
+        <button id="togle-bar-logo-btn">
+            <i class="fa-solid fa-circle-user" style="font-size: 0.8cm; color: white;"></i>
+        </button>
+    </div>
+    <div class="location-box">
+        <div class="detect-location">
+            <button id="current-location-btn">
+                <div class="box-location">
+                    <div class="svg">
+                        <i class="fa-solid fa-location-crosshairs" style="color: rgb(243, 155, 169)"></i>
+                    </div>
+                    <div class="svg">Detect current location</div>
+                </div>
+            </button>
+            <div class="gps-using">Using GPS</div>
+            <hr />
+        </div>
+
+        <div class="your-location">
+            <div class="recent-location">
+                Recent-Location
+            </div>
+
+            <div class="your-city">
+                <i class="fa-solid fa-location-pin"></i>
+                Delhi NCR,India
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <footer>
+        <section class="footer-div">
+            <div class="footer-head">
+                <div class="footer-logo">
+                    LAZIZ
+                </div>
+                <button class="footer-country">
+                    <div class="flag-img">
+                        <img src="flag-img\Flag_of_India.svg.webp" id="flag-img"> 
+                    </div>
+                    <div class="flag-contry-name">
+                        India
+                    </div>
+                    <div class="tri-2">
+                        <i class="fa-solid fa-caret-down " id="tri-2" ></i>
+                    </div>
+                </button>
+            </div>
+            <section class="footer-main">
+                <div class="footer-element-box">
+                <h3 class="footer-element-head-h3">ABOUT LAZIZ</h3>
+                <nav>
+                    <a href="#">
+                        <p class="footer-link">Who We Are</p>
+                    </a>
+                    <a href="#">
+                        <p class="footer-link">Blog</p>
+                    </a>
+                    <a href="#">
+                        <p class="footer-link">Work With Us</p>
+                    </a>
+                    <a href="#">
+                        <p class="footer-link">Investor Relation</p>
+                    </a>
+                    <a href="#">
+                        <p class="footer-link">Report Fraud</p>
+                    </a>
+                    <a href="#">
+                        <p class="footer-link">Contact Us</p>
+                    </a>
+
+
+                </nav>
+
+                </div>
+                <div class="footer-element-box">
+                 <h3 class="footer-element-head-h3">LAZIVERSE</h3>
+                 <nav>
+                    <a href="#">
+                        <p class="footer-link">Laziz</p>
+                    </a>
+                    <a href="#">
+                        <p class="footer-link">Feeding</p>
+                    </a>
+                    <a href="#">
+                        <p class="footer-link">Hyperpure</p>
+                    </a>
+                    <a href="#">
+                        <p class="footer-link">LAZIland</p>
+                    </a>
+
+                </nav>
+                </div>
+                <div class="footer-element-box">
+                    <h3 class="footer-element-head-h3">FOR RESTAURANTS</h3>
+                    <nav>
+                        <a href="#">
+                            <p class="footer-link">Partner With Us</p>
+                        </a>
+                        <a href="#">
+                            <p class="footer-link">App For You</p>
+                        </a>
+                        <a href="#">
+                            <p class="footer-link">Work With Us</p>
+                        </a>
+                     
+    
+    
+                 </nav>
+
+
+                </div>
+                <div class="footer-element-box">
+                    <h3 class="footer-element-head-h3">LEARN MORE</h3>
+                    <nav>
+                        <a href="#">
+                            <p class="footer-link">Privacy</p>
+                        </a>
+                        <a href="#">
+                            <p class="footer-link">Security</p>
+                        </a>
+                        <a href="#">
+                            <p class="footer-link">Term </p>
+                        </a>
+                        <a href="#">
+                            <p class="footer-link">Condition</p>
+                        </a>
+                        <a href="#">
+                            <p class="footer-link">Sitemap</p>
+                        </a>
+                       
+    
+    
+                    </nav>
+
+                </div>
+                <div class="footer-element-box">
+                    <h3 class="footer-element-head-h3">SOCIAL LINKS</h3>
+                    <div class="social-link">
+                        <div class="socia-media-symbol">
+                            <a href="#"><i class="fa-brands fa-linkedin-in symbol" ></i></a>
+                        </div>
+                        <div class="socia-media-symbol">
+                            <a href="#"><i class="fa-brands fa-instagram symbol"></i></a>
+                        </div>
+                        <div class="socia-media-symbol">
+                            <a href="#"><i class="fa-brands fa-twitter symbol"></i></a>
+                        </div>
+                        <div class="socia-media-symbol">
+                            <a href="#"><i class="fa-brands fa-youtube symbol"></i></a>
+                        </div>
+                        <div class="socia-media-symbol">
+                            <a href="#"><i class="fa-brands fa-facebook symbol"></i></a>
+                        </div>
+
+
+
+
+
+                    </div>
+                    <div class="social-link">
+                        <a href="#"><img src="home-img\appstore.png" class="app-dwnld-img"></a>
+                    </div>
+                    <div class="social-link">
+
+                        <a href="#"><img src="home-img\googleplay.png" class="app-dwnld-img"></a>
+                    </div>
+
+
+                </div>
+                
+            </section>
+          
+          
+          <hr>
+          <br>
+          <div class="footer-link">
+            By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2022 © LAZIZ™ Ltd. All rights reserved.
+          </div>
+        </section>
+
+
+<!-- foooter selection of country -->
+
+
+<section class="popup-country-flag-box">
+    <div class="intecator-div"></div>
+    <div class="box-inner-popup"> 
+        <a href="#" class="country-type-link">
+    <div class="country-type">
+        <div class="img-flag-box">
+            <img src=".\flag-img\Flag_of_India.svg.webp" alt="india" class="flag-type">
+        </div>
+        <div class="flag-country-name">
+            <p class="country-name-p">India</p>
+        </div>
+    </div></a>
+    <a href="#" class="country-type-link">
+    <div class="country-type"> 
+         <div class="img-flag-box">
+            <img src=".\flag-img\640px-Flag_of_Brazil.svg.png" alt="brazil" class="flag-type">
+           
+        </div>
+        <div class="flag-country-name">
+            <p class="country-name-p">Brazil</p>
+            
+        </div>
+    </div></a>
+    <a href="#" class="country-type-link">
+    <div class="country-type">
+        <div class="img-flag-box">
+            <img src=".\flag-img\austrelia.png" alt="austrilia" class="flag-type">
+
+
+        </div>
+        <div class="flag-country-name">
+            <p class="country-name-p">Australia</p>
+            
+        </div>
+    </div></a>
+    <a href="#" class="country-type-link">
+    <div class="country-type">
+        <div class="img-flag-box">
+            <img src=".\flag-img\Flag_of_Bangladesh.svg.webp" alt="bangaladesh" class="flag-type">
+
+        </div>
+        <div class="flag-country-name">
+            <p class="country-name-p">Bangladesh</p>
+            
+        </div>
+    </div></a>
+    <a href="#" class="country-type-link">
+    <div class="country-type">
+        <div class="img-flag-box">
+            <img src=".\flag-img\Flag_of_France.svg.webp" alt="france" class="flag-type"> 
+
+        </div>
+        <div class="flag-country-name">
+
+            <p class="country-name-p">France</p>
+        </div>
+    </div></a>
+    <a href="#" class="country-type-link">
+    <div class="country-type">
+        <div class="img-flag-box">
+            <img src=".\flag-img\Flag_of_Indonesia.svg.webp" alt="indonesia" class="flag-type"> 
+
+        </div>
+        <div class="flag-country-name">
+            <p class="country-name-p">Indonesia</p>
+            
+        </div>
+    </div></a>
+    <a href="#" class="country-type-link">
+    <div class="country-type">
+        <div class="img-flag-box">
+            <img src=".\flag-img\Flag_of_the_United_Kingdom.svg.webp" alt="uk" class="flag-type">  
+
+        </div>
+        <div class="flag-country-name">
+
+            <p class="country-name-p">United kingdom</p>
+        </div>
+    </div></a>
+    <a href="#" class="country-type-link">
+    <div class="country-type">
+        <div class="img-flag-box">
+            <img src=".\flag-img\Flag-Afghanistan.jpg" alt="afganistan" class="flag-type"> 
+
+        </div>
+        <div class="flag-country-name">
+            <p class="country-name-p">Afganistan</p>
+            
+        </div>
+    </div></a>
+    <a href="#" class="country-type-link">
+    <div class="country-type">
+        <div class="img-flag-box">
+
+            <img src=".\flag-img\Flag-Maldives.webp" alt="maldives" class="flag-type">
+        </div>
+        <div class="flag-country-name">
+            
+            <p class="country-name-p">Maldives</p>
+            
+        </div>
+    </div></a>
+    <a href="#" class="country-type-link">
+    <div class="country-type">
+        <div class="img-flag-box">
+            <img src="\flag-img\Flag-Nepal.webp" alt="nepal" class="flag-type">  
+
+        </div>
+        <div class="flag-country-name">
+            <p class="country-name-p">Nepal</p>
+            
+        </div>
+    </div></a>
+    
+    <a href="#" class="country-type-link">
+    <div class="country-type">
+        <div class="img-flag-box">
+            <img src=".\flag-img\Flag-New-Zealand.jpg" alt="newzeeland" class="flag-type">
+
+        </div>
+        <div class="flag-country-name">
+            <p class="country-name-p">New Zealand</p>
+            
+        </div>
+    </div></a>
+    <a href="#" class="country-type-link">
+    <div class="country-type">
+        <div class="img-flag-box">
+            <img src=".\flag-img\Flag-Qatar.webp" alt="qatar" class="flag-type">  
+
+        </div>
+        <div class="flag-country-name">
+
+            <p class="country-name-p">Qatar</p>
+        </div>
+    </div></a>
+    <a href="#" class="country-type-link">
+    <div class="country-type">
+        <div class="img-flag-box">
+
+            <img src=".\flag-img\Flag-Saudi-Arabia.jpg" alt="saudi" class="flag-type">  
+        </div>
+        <div class="flag-country-name">
+            <p class="country-name-p">Saudi Arabia</p>
+            
+        </div>
+    </div></a>
+    <a href="#" class="country-type-link">
+    <div class="country-type">
+        <div class="img-flag-box">
+            <img src=".\flag-img\flag-symbolism-Pakistan-design-Islamic.webp" alt="pakistan" class="flag-type">
+
+        </div>
+        <div class="flag-country-name">
+            <p class="country-name-p">Pakistan</p>
+            
+        </div>
+    </div></a>
+    <a href="#" class="country-type-link">
+    <div class="country-type">
+        <div class="img-flag-box">
+
+            <img src=".\flag-img\istockphoto-657673100-1024x1024.jpg" alt="srilanka" class="flag-type">
+        </div>
+    
+        <div class="flag-country-name">
+
+            <p class="country-name-p">Sri Lanka</p>
+        </div>
+    </div></a>
+   
+
+</div>
+
+  </section> 
+
+
+
+
+
+
+    </footer>
+
+
+
+
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

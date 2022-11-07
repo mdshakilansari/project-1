@@ -1,0 +1,116 @@
+
+.loginform{margin: 0;
+    width: 35%;
+    height: 65vh;
+    background-color:white;
+    border: none;
+    border-radius: 12px;
+    position: absolute;
+    left: 32.5%;
+    top: 15%;
+   display: none;
+   box-shadow: 5px 5px 8px #4b4949a6;
+}
+.nav-2{
+    display: flex;
+    justify-content: space-between;
+    margin: 2vh 3vw;
+    align-items: center;
+}
+i{
+    color: black;
+}
+#close-loginform{
+ margin-top: 0vh;
+   color: black;
+    cursor: pointer;
+    border: none;
+}
+#close-loginform:hover{
+    color: red;
+}
+.log-popup{
+    font-size: 4vh;
+    font-weight: bolder;
+    color: rgb(33, 32, 90);
+}
+
+.input-box-1{  
+    height: 6vh;
+    margin: 1vh 3vw 3vh 3vw;
+    display: flex;
+border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgb(92, 84, 84);
+    align-items: center;
+    justify-content: center;
+}
+
+
+#sel-con-phone{
+    height:6vh ;
+    width: 35%;
+    outline: none;
+    border: none; border-radius: 5px;
+}
+
+#input-phone{
+    width: 100%;
+    border: none;
+    outline: none; border-radius: 5px;
+}
+#input-password{
+    outline: none;
+    border: none;
+    width: 70%;
+    border-radius: 5px;
+}
+
+input[type="text"],input[type="password"]{
+    font-size: 16px;
+}
+
+
+#login-btn-1{
+    background-color: rgba(219, 8, 36, 0.863);
+   height: 6vh;
+   margin: 1vh 3vw 3vh 3vw;
+  width: 29vw;
+border: none;
+   border-radius: 5px;
+   box-shadow: 2px 2px 5px rgb(92, 84, 84);
+   color: white;
+   font-size: 4vh;
+   font-weight: bold;
+   cursor: pointer;
+    }
+
+#login-btn-google{
+    cursor: pointer;  box-shadow: 2px 2px 5px rgb(92, 84, 84);
+    height: 6vh;
+    margin: 3vh 3vw 3vh 3vw;
+   width: 29vw;
+ border: none;
+    border-radius: 5px;
+    background-color: rgb(250, 248, 248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5vw;
+}
+      
+.last{
+    display: flex;
+    justify-content: space-between;
+    margin: 3vh 3vw 3vh 1vw;
+    background-color: 
+}
+
+#create-account{
+    color: blue;
+    width: 40%;
+    font-size: 1.6vw;
+margin-left: 3vw;
+padding: 0;
+
+}

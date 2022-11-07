@@ -1,0 +1,82 @@
+#togle-bar-logo-btn{
+    position: absolute;
+    top: 3%;
+    right: 6%;
+visibility: hidden;
+    width: 1cm;
+
+}
+
+
+.toggle-bar{
+    height: 70%;
+    width: 100%;
+    background-color:white;
+    position: absolute;
+    left: 0px;
+    top: 315px;
+    z-index: 1;
+    display: none;
+    border: none;
+    border-radius: 20px;
+
+}
+.toggle-head{margin-top: 6px;
+    width: 100%;
+    height: 1cm;
+ 
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    font-size: 1cm;
+    font-weight: bolder;
+    padding: 0px 20px;
+
+   
+}
+
+.toggle-logo{
+    
+    margin-left: 10px;
+}
+#toggle-close{
+    margin-right: 10px;
+    cursor: pointer;
+    width: 1cm;
+    color: white;
+}
+
+.toggle-item{
+width: 100%;
+height: 1.5cm;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.toggle-btn{
+    height: 0.8cm;
+    width: 100%;
+    font-size: 0.5cm;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.toggle-link{
+    font-size: 0.5cm;
+    font-weight: bold;
+ text-decoration: none;
+ color: black;
+}
+
+
+@media only screen and (max-width: 480px){
+    #togle-bar-logo-btn{
+        visibility: visible;
+            }
+
+
+}

@@ -1,0 +1,789 @@
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+
+ .main {
+     margin: 0px 0px 2vh 0px;
+     padding-bottom: 50px;
+    
+     background-image: linear-gradient(#80808000, #000000bf),
+         url("shutterstock_348320018.png");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     z-index: -1;
+
+ }
+
+ .head {
+     margin-bottom: 4vh;
+     display: flex;
+     justify-content: center;
+ }
+
+
+
+ .nav {
+     display: flex;
+     align-items: center;
+     height: 8vh;
+     width: 90%;
+
+     margin: 1vh 0vw;
+     padding: 0;
+ }
+
+ li {
+     margin-left: 12px;
+ }
+
+ .hth {
+     display: flex;
+
+     height: 8vh;
+     width: 87%;
+     justify-content: flex-end;
+ }
+
+ .header {
+     display: flex;
+     align-items: center;
+     list-style: none;
+ }
+
+ .log {
+     padding: 0;
+     color: white;
+     font-size: 1.4vw;
+     width: 4vw;
+     margin-left: 0.5vw;
+     cursor: pointer;
+ }
+
+ .sign {
+     width: 5vw;
+ }
+
+ a {
+     font-size: 1.5vw;
+     text-decoration: none;
+     color: white;
+     z-index: 4;
+ }
+
+ .logo-div{
+    display: flex;
+    justify-content: center;
+ }
+
+ #logo-1{
+    border-radius: 5vw;
+    background-color: azure;
+    color: red;
+    width: 12vw;
+ margin-right: 2vw;
+    font-size: 7vw ;
+ }
+
+ .logo-2 {
+     font-size: 10vw;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+    
+     font-weight: bolder;
+
+ }
+
+ .Discover-food {
+    
+     text-align: center;
+     font-size: 3vw;
+     font-weight: bold;
+     color: white;
+
+ }
+
+ i {
+     font-size: 20px;
+     color: white;
+
+
+ }
+
+
+ .search {
+     height: 11vh;
+     display: flex;
+     align-items: center;
+     margin-top: 1vh;
+     border: none;
+     justify-content: center;
+ }
+
+ .search-1 {
+     display: flex;
+     align-items: center;
+     height: 8vh;
+     width: 20vw;
+     background-color: white;
+     border: white 1px solid;
+     border-radius: 13px 0px 0px 13px;
+
+ }
+
+ .search-2 {
+     display: flex;
+     align-items: center;
+     height: 8vh;
+     width: 35vw;
+     background-color: white;
+     border: white solid 1px;
+     border-radius: 0px 13px 13px 0px;
+ }
+
+
+
+
+ .ser-1 {
+     margin: 0;
+     padding: 0.5vh 0vh;
+     display: flex;
+     height: 6.4vh;
+     width: 100%;
+     align-items: center;
+
+ }
+
+ .inp-1 {
+     width: 100%;
+     height: 80%;
+     margin: 0px 18px;
+     border: none;
+     outline: 0;
+
+ }
+
+
+
+ #lctn {
+     color: rgb(243, 155, 169);
+     cursor: pointer;
+     margin-left: 5px;
+
+ }
+
+ .ser-2 {
+     margin: 0;
+     padding: 0.5vh 0vh;
+     display: flex;
+     height: 6.4vh;
+     width: 98%;
+     align-items: center;
+ }
+
+
+
+ #tri {
+     margin-right: 5px;
+     color: rgb(31, 29, 29);
+     cursor: pointer;
+
+ }
+
+ #pip {
+     color: rgb(31, 29, 29);
+ }
+
+ #mgni {
+     color: rgb(31, 29, 29);
+     margin: 0px 5px;
+ }
+
+ .inp-2 {
+     width: 94%;
+     height: 80%;
+     border: none;
+     outline: 0;
+ }
+
+ button {
+     background: transparent;
+     border: none;
+     width: 1.6vw;
+     padding: 0;
+
+ }
+
+
+
+ .sec-papa {
+
+     min-height: 55vh;
+     margin-top: 4vh;
+     padding: 0;
+     display: flex;
+     justify-content: center;
+ }
+
+ .sec {
+   min-height: 55vh;
+     width: 80%;
+ }
+
+
+
+ .sec1 {
+     width: 100%;
+     height: 9vh;
+     margin: 0;
+ }
+
+ .mhf {
+     font-size: 2.1vw;
+     color: rgb(33, 32, 90);
+     font-weight: bolder;
+
+ }
+
+ .ast {
+     font-size: 1.5vw;
+     color: rgb(92, 87, 87);
+ }
+
+
+ .sec-child {
+     width: 100%;
+     min-height: 45vh;
+     margin: 4vh 0vw;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+
+ }
+
+ .child-1 {
+     box-shadow: 10px 10px 5px #aaaaaa;
+     width: 32%;
+     height: 45vh;
+     padding: 0;
+     border: none;
+     border-radius: 24px;
+     cursor: pointer;
+     margin-bottom: 26px;
+ }
+
+ .jkl {
+     border: none;
+     border-radius: 24px 24px 0px 0px;
+     width: 100%;
+     height: 72%;
+
+ }
+
+ .ret-1 {
+     text-align: center;
+     font-size: 100%;
+     color: rgb(33, 32, 90);
+     margin-top: 1.2vh;
+     padding: 0;
+     font-weight: bold;
+ }
+
+ .ret-2 {
+     text-align: center;
+     color: black;
+     font-size: 85%;
+     margin-top: 1.1vh;
+ }
+
+ .child-1:hover {
+     transform: scale(1.04);
+     transition-duration: 700ms;
+ }
+
+ #tri:hover {
+     transform: scale(1.1);
+ }
+
+ #lctn:hover {
+     transform: scale(1.1);
+ }
+
+
+/* footer start */
+ footer{
+    background-color: rgba(240, 235, 235, 0.541);
+    width: 100%;
+    min-height: 77vh;
+    display: flex;
+    justify-content: center;
+ }
+
+.footer-div{padding-top: 30px;
+    height: 100%;
+    width: 80%;
+
+}
+
+.footer-head{
+  
+    height: 14%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo{
+    color: black;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.footer-country{
+    width: 160px ;
+    border-radius: 8px;
+    height: 50px ;
+    border: 1px solid rgb(150, 144, 144);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+   
+}
+
+.flag-img,.flag-contry-name{
+    height: 30px;
+    width: 60px;
+    font-size: 25px ;
+    margin-right: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #6e6969;
+}
+#flag-img{
+    height: 30px;
+    width: 50px;
+    margin-right: 0px 15px;
+}
+
+.tri-2{
+    margin-left: 10px;
+}
+
+.footer-main{
+display: flex;
+height: 60%;
+width: 100%;
+margin-top: 20px;
+
+
+
+}
+.footer-element-box{
+width: 20%;
+height: 100%;
+
+
+}
+.footer-element-head-h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 18px ;
+    color: rgb(59, 59, 59);
+}
+
+
+
+.footer-link{
+    color: rgb(128, 121, 121);
+    margin: 10px 0px;
+    font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+}
+
+.social-link{
+display: flex;
+    height: 25%;
+    width: 216px;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+.socia-media-symbol{
+    height: 40px;
+    width: 40px;
+   background-color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 20px;
+}
+.symbol{
+    color: white;
+}
+.app-dwnld-img{
+    height: 50px;
+    width: 216px;
+    margin: 10px 0px;
+  
+}
+
+
+/* footer-end */
+
+
+
+
+
+
+
+/*  start location box */
+ .location-box {
+     width: 30vw;
+     height: 25vh;
+     background-color: white;
+     border-radius: 8px;
+     position: absolute;
+     left: 22%;
+     top: 57%;
+     box-shadow: 4px 4px 4px  rgba(92, 91, 91, 0.562);
+     display: none;
+
+ }
+
+ .detect-location {
+
+     width: 100%;
+     height: 9vh;
+
+ }
+
+ #current-location-btn {
+     width: 100%;
+     height: 100%;
+     background-color: transparent;
+     border: none;
+     cursor: pointer;
+
+ }
+
+ #current-location-btn:hover {
+     background-color: rgba(233, 227, 227, 0.363);
+ }
+
+ .box-location {
+     display: flex;
+ }
+
+ .svg {
+     color: rgb(243, 155, 169);
+
+     font-size: 1.7vw;
+     margin-right: 1vw;
+     margin-left: 1vw;
+ }
+
+ .gps-using {
+     margin-left: 4.5vw;
+     margin-top: -2vh;
+ }
+
+ .your-location {
+     height: 15vh;
+     width: 100%;
+
+
+ }
+
+ .recent-location {
+     font-size: 1.7vw;
+     margin: 1.5vw;
+     padding: 0;
+
+ }
+
+ .your-city {
+     margin: 1.7vw;
+     font-size: 1.3vw;
+ }
+
+ .your-city>i {
+     margin-right: 1vw;
+ }
+/* end location location box */
+
+
+
+
+
+ /* for mobile */
+ @media only screen and (max-width: 480px) {
+
+     .main {
+         height: 60vh;
+     }
+
+
+     .head {
+         visibility: hidden;
+         margin: 0;
+     }
+
+     .search {
+         display: flex;
+         flex-direction: column;
+         margin-top: 21px;
+     }
+
+     .search-1 {
+         margin-top: 4rem;
+         width: 90%;
+         border: none;
+         border-radius: 13px;
+     }
+
+     .search-2 {
+         margin: 15px;
+         width: 90%;
+         border: none;
+         border-radius: 13px;
+     }
+
+     .Discover-food {
+         font-size: 27px;
+     }
+
+     .logo {
+         font-size: 25vw;
+         height: 10vh;
+         margin-bottom: 30px;
+
+     }
+
+     #tri {
+         display: none;
+     }
+
+     .mhf {
+         font-size: 1.2rem;
+     }
+
+     .ast {
+         font-size: 1rem;
+     }
+
+     .child-1 {
+         width: 47%;
+         height: 10rem;
+     }
+
+     .sec-child {
+         margin-top: 0;
+     }
+
+     .ret-1 {
+         font-size: 15px;
+         margin: 0;
+     }
+
+     .ret-2 {
+         font-size: 0vw;
+     }
+     .footer-main{
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+        
+     }
+     .footer-element-box{
+        width: 100%;
+        margin: 20px 0px 0px 20px;
+     }
+     .footer-head{
+        flex-wrap: wrap;
+
+     }
+     .footer-logo{
+        width: 100%;
+     }
+     .footer-country{
+        width: 180px;
+        margin-top: 10px;
+     }
+     .socia-media-symbol{
+        margin-top: 10px;
+     }
+
+ }
+
+ /* for tablet */
+ @media only screen and (min-width: 510px) and (max-width:780px) {
+
+     a {
+         font-size: 16px;
+
+     }
+
+     .add-invest {
+         display: none;
+     }
+
+     .log {
+         font-size: 18px;
+         width: 70px;
+         border: 1px solid white;
+         border-radius: 5px;
+         box-shadow: 1px 1px 1px 1px rgba(221, 218, 218, 0.568);
+     }
+
+     .logo {
+
+         font-size: 15vw;
+         height: 20%;
+     }
+
+     .Discover-food {
+         font-size: 4vw;
+         margin-bottom: 20px;
+     }
+
+     .search-2 {
+         width: 55vw;
+         height: 5vh;
+
+     }
+
+     .search-1 {
+         width: 28vw;
+         height: 5vh;
+     }
+
+     .mhf {
+         font-size: 4vw;
+     }
+
+     .ast {
+         font-size: 1rem;
+     }
+
+     .sec {
+         width: 90%;
+     }
+
+     .sec-child {
+         margin-top: -2vh;
+         min-height: 36vh;
+     }
+
+     .child-1 {
+         width: 32%;
+         height: 30%;
+         margin-bottom: 10px;
+     }
+
+     .ret-2 {
+         font-size: 0;
+     }
+
+     .main {
+         height: 50vh;
+     }
+  
+
+     .sec1 {
+         margin-bottom: 20px;
+     }
+
+     .footer-main{
+        flex-wrap: wrap;
+        
+     }
+     .footer-element-box{
+        width: 50%;
+     }
+
+
+
+
+
+
+
+ }
+
+
+ /* for small screen laptop */
+
+ @media only screen and (min-width: 810px) and (max-width:1100px) {
+
+     a {
+         font-size: 2vw;
+     }
+
+     .getapp {
+         visibility: hidden;
+     }
+
+     .log {
+         font-size: 2vw;
+         width: 8vw;
+         border: 1px solid white;
+         border-radius: 5px;
+         box-shadow: 1px 1px 1px 1px rgba(172, 159, 159, 0.644);
+     }
+
+     .logo {
+
+         font-size: 13vw;
+         margin-bottom: 30px;
+
+     }
+
+     .Discover-food {
+         font-size: 4vw;
+         margin: 20px 0px;
+     }
+
+     .search-2 {
+         width: 50vw;
+
+
+     }
+
+     .search-1 {
+         width: 22vw;
+
+     }
+
+     .mhf {
+         font-size: 3vw;
+     }
+
+     .ast {
+         font-size: 1rem;
+     }
+
+     .ret-1 {
+         margin: 0px 0px 2px 0px;
+         font-size: 2.1vw;
+     }
+
+     .ret-2 {
+         margin: 0px 0.5px;
+         font-size: 14px;
+     }
+
+      .location-box {
+        left: 13.3%;
+       top: 46%;
+       margin-top: 10px;
+     }
+
+
+
+
+
+ }
+
+
